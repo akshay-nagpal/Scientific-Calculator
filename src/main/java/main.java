@@ -49,8 +49,8 @@ public class main {
         {
             System.out.println("Enter two numbers in format a^b \n");
             System.out.println("Enter a:");
-            int a;
-            a=sc.nextInt();
+            double a;
+            a=sc.nextDouble();
             System.out.println("\nEnter b:");
             double b;
             b=sc.nextDouble();
