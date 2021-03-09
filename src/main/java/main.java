@@ -16,6 +16,18 @@ public class main {
 
         return f;
     }
+    static double squareroot(double n)
+    {
+        return Math.sqrt(n);
+    }
+    static double logarithm(double n)
+    {
+        return Math.log(n);
+    }
+    static double power(double a,double b)
+    {
+        return Math.pow(a,b);
+    }
     public static void main(String[] args) {
         System.out.println("Welcome!!");
         while (true) {
@@ -28,7 +40,7 @@ public class main {
                 double n;
                 n = sc.nextDouble();
                 System.out.println("Output= ");
-                System.out.println(Math.sqrt(n));
+                System.out.println(squareroot(n));
             }
             if (x == 2) {
                 System.out.println("Enter the number \n");
@@ -42,7 +54,7 @@ public class main {
                 double n;
                 n = sc.nextDouble();
                 System.out.println("Output= ");
-                System.out.println(Math.log(n));
+                System.out.println(logarithm(n));
             }
             if (x == 4) {
                 System.out.println("Enter two numbers in format a^b \n");
@@ -53,7 +65,7 @@ public class main {
                 double b;
                 b = sc.nextDouble();
                 System.out.println("Output= ");
-                System.out.println(Math.pow(a, b));
+                System.out.println(power(a,b));
             }
             if(x==5)
             {
