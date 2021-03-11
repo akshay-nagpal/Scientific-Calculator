@@ -10,8 +10,8 @@ public class mainTest {
 
     @Test
     public void factorialTruePositive(){
-        assertNotEquals("Finding factorial of a number for False Positive", 720, mainobj.factorial(6), DELTA);
-        assertNotEquals("Finding factorial of a number for False Positive", 6, mainobj.factorial(3), DELTA);
+        assertEquals("Testing factorial for True Positive", 24, mainobj.factorial(4), DELTA);
+        assertEquals("Testing factorial for True Positive", 6, mainobj.factorial(3), DELTA);
     }
 
     @Test

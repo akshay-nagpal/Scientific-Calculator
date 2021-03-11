@@ -4,10 +4,10 @@ import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class main {
-    public int factorial(int N)
+    public double factorial(int N)
     {
         // Initialize result
-        int f=1;
+        double f=1;
 
         // Multiply f with 2, 3, ...N
         for (int i = 2; i <= N; i++)
