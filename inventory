@@ -1,2 +1,1 @@
 localhost ansible_user=mars
-172.16.130.70 ansible_user=akshay
