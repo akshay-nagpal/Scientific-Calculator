@@ -10,36 +10,36 @@ public class main {
     public double factorial(int N)
     {
         // Initialize result
-        logger.info("[FACTORIAL] - " + N);
+        logger.info("[Factorial of number] - " + N);
         double f=1;
 
         // Multiply f with 2, 3, ...N
         for (int i = 2; i <= N; i++)
             f = f*i;
 
-        logger.info("[RESULT - FACTORIAL] - " + f);
+        logger.info("[factorial output=] - " + f);
         return f;
 
     }
      public double squareroot(double n)
     {
-        logger.info("[SQUARE ROOT] - " + n);
+        logger.info("[Square root of number=] - " + n);
         double res=Math.sqrt(n);
-        logger.info("[RESULT - SQUARE ROOT] - " + res);
+        logger.info("[Square root output=] - " + res);
         return res;
     }
      public double logarithm(double n)
     {
-        logger.info("[NATURAL LOG] - " + n);
+        logger.info("[Natural log of number=] - " + n);
         double res= Math.log(n);
-        logger.info("[RESULT - NATURAL LOG] - " + res);
+        logger.info("[Natural log output=] - " + res);
         return res;
     }
     public double power(double a,double b)
     {
-        logger.info("[POWER - " + a + " RAISED TO] " + b);
+        logger.info("[Power " + a + " raised to] " + b);
         double res= Math.pow(a,b);
-        logger.info("[RESULT - POWER] - " + res);
+        logger.info("[Output of power function=] - " + res);
         return res;
     }
     public static void main(String[] args) {

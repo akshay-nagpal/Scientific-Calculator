@@ -30,3 +30,35 @@
 2021-03-13 11:02:11.607 [main] INFO  main - [RESULT - POWER] - 243.0
 2021-03-13 11:02:11.607 [main] INFO  main - [POWER - 5.0 RAISED TO] 3.0
 2021-03-13 11:02:11.607 [main] INFO  main - [RESULT - POWER] - 125.0
+2021-03-13 11:32:36.157 [main] INFO  main - [Factorial of number] - 6
+2021-03-13 11:32:36.165 [main] INFO  main - [factorial output=] - 720.0
+2021-03-13 11:32:36.165 [main] INFO  main - [Factorial of number] - 3
+2021-03-13 11:32:36.166 [main] INFO  main - [factorial output=] - 6.0
+2021-03-13 11:32:36.168 [main] INFO  main - [Natural log of number=] - 1.0
+2021-03-13 11:32:36.169 [main] INFO  main - [Natural log output=] - 0.0
+2021-03-13 11:32:36.170 [main] INFO  main - [Natural log of number=] - 1.0
+2021-03-13 11:32:36.170 [main] INFO  main - [Natural log output=] - 0.0
+2021-03-13 11:32:36.171 [main] INFO  main - [Square root of number=] - 16.0
+2021-03-13 11:32:36.172 [main] INFO  main - [Square root output=] - 4.0
+2021-03-13 11:32:36.173 [main] INFO  main - [Square root of number=] - 36.0
+2021-03-13 11:32:36.173 [main] INFO  main - [Square root output=] - 6.0
+2021-03-13 11:32:36.174 [main] INFO  main - [Square root of number=] - 32.0
+2021-03-13 11:32:36.175 [main] INFO  main - [Square root output=] - 5.656854249492381
+2021-03-13 11:32:36.175 [main] INFO  main - [Square root of number=] - 25.0
+2021-03-13 11:32:36.176 [main] INFO  main - [Square root output=] - 5.0
+2021-03-13 11:32:36.177 [main] INFO  main - [Factorial of number] - 4
+2021-03-13 11:32:36.178 [main] INFO  main - [factorial output=] - 24.0
+2021-03-13 11:32:36.179 [main] INFO  main - [Factorial of number] - 3
+2021-03-13 11:32:36.179 [main] INFO  main - [factorial output=] - 6.0
+2021-03-13 11:32:36.180 [main] INFO  main - [Natural log of number=] - 65.0
+2021-03-13 11:32:36.181 [main] INFO  main - [Natural log output=] - 4.174387269895637
+2021-03-13 11:32:36.181 [main] INFO  main - [Natural log of number=] - 845.0
+2021-03-13 11:32:36.181 [main] INFO  main - [Natural log output=] - 6.739336627357174
+2021-03-13 11:32:36.182 [main] INFO  main - [Power 3.0 raised to] 4.0
+2021-03-13 11:32:36.183 [main] INFO  main - [Output of power function=] - 81.0
+2021-03-13 11:32:36.183 [main] INFO  main - [Power 6.0 raised to] 4.0
+2021-03-13 11:32:36.184 [main] INFO  main - [Output of power function=] - 1296.0
+2021-03-13 11:32:36.185 [main] INFO  main - [Power 3.0 raised to] 5.0
+2021-03-13 11:32:36.186 [main] INFO  main - [Output of power function=] - 243.0
+2021-03-13 11:32:36.187 [main] INFO  main - [Power 5.0 raised to] 3.0
+2021-03-13 11:32:36.188 [main] INFO  main - [Output of power function=] - 125.0

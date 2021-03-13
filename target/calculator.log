@@ -1,4 +1,4 @@
-2021-03-13 11:02:47.603 [main] INFO  main - [FACTORIAL] - 15
-2021-03-13 11:02:47.610 [main] INFO  main - [RESULT - FACTORIAL] - 1.307674368E12
-2021-03-13 11:03:12.582 [main] INFO  main - [FACTORIAL] - 5
-2021-03-13 11:03:12.583 [main] INFO  main - [RESULT - FACTORIAL] - 120.0
+2021-03-13 11:33:13.361 [main] INFO  main - [Square root of number=] - 16.0
+2021-03-13 11:33:13.366 [main] INFO  main - [Square root output=] - 4.0
+2021-03-13 11:33:25.456 [main] INFO  main - [Factorial of number] - 10
+2021-03-13 11:33:25.457 [main] INFO  main - [factorial output=] - 3628800.0

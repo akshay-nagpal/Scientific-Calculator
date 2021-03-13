@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="mainTest" time="0.789" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="mainTest" time="0.863" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.10+9-Ubuntu-0ubuntu1.20.04"/>
@@ -61,12 +61,12 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="mainTest" name="factorialFalsePositive" time="0.776"/>
-  <testcase classname="mainTest" name="logarithmTruePositive" time="0.001"/>
-  <testcase classname="mainTest" name="squarerootTruePositive" time="0"/>
-  <testcase classname="mainTest" name="squarerootFalsePositive" time="0.002"/>
+  <testcase classname="mainTest" name="factorialFalsePositive" time="0.846"/>
+  <testcase classname="mainTest" name="logarithmTruePositive" time="0"/>
+  <testcase classname="mainTest" name="squarerootTruePositive" time="0.003"/>
+  <testcase classname="mainTest" name="squarerootFalsePositive" time="0.003"/>
   <testcase classname="mainTest" name="factorialTruePositive" time="0.003"/>
   <testcase classname="mainTest" name="logarithmFalsePositive" time="0.002"/>
-  <testcase classname="mainTest" name="powerFalsePositive" time="0.003"/>
-  <testcase classname="mainTest" name="powerTruePositive" time="0.002"/>
+  <testcase classname="mainTest" name="powerFalsePositive" time="0.002"/>
+  <testcase classname="mainTest" name="powerTruePositive" time="0.004"/>
 </testsuite>
