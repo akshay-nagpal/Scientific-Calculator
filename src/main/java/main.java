@@ -2,30 +2,45 @@ import java.awt.*;
 import java.math.BigInteger;
 import java.sql.SQLOutput;
 import java.util.Scanner;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class main {
+    private static final Logger logger = LogManager.getLogger(main.class);
     public double factorial(int N)
     {
         // Initialize result
+        logger.info("[FACTORIAL] - " + N);
         double f=1;
 
         // Multiply f with 2, 3, ...N
         for (int i = 2; i <= N; i++)
             f = f*i;
 
+        logger.info("[RESULT - FACTORIAL] - " + f);
         return f;
+
     }
      public double squareroot(double n)
     {
-        return Math.sqrt(n);
+        logger.info("[SQUARE ROOT] - " + n);
+        double res=Math.sqrt(n);
+        logger.info("[RESULT - SQUARE ROOT] - " + res);
+        return res;
     }
      public double logarithm(double n)
     {
-        return Math.log(n);
+        logger.info("[NATURAL LOG] - " + n);
+        double res= Math.log(n);
+        logger.info("[RESULT - NATURAL LOG] - " + res);
+        return res;
     }
     public double power(double a,double b)
     {
-        return Math.pow(a,b);
+        logger.info("[POWER - " + a + " RAISED TO] " + b);
+        double res= Math.pow(a,b);
+        logger.info("[RESULT - POWER] - " + res);
+        return res;
     }
     public static void main(String[] args) {
         System.out.println("Welcome!!");
